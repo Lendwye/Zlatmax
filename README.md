@@ -1,5 +1,5 @@
 # Zlatmax
-Zlatmax is project created to improve my front-end skills, design was taken from the internet
+Zlatmax is project created to improve my front-end skills, design was taken from the internet.
 Работа была сделана исключительно в учебных целях и в целях демонстрации собственных навыков. Данная работа никому не продавалась, и даже
 не имеет доменного имени, поэтому прошу не обвинять меня в использовании данного дизайна (он естественно не мой).
 Используется: 
