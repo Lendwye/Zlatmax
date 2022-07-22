@@ -1,0 +1,23 @@
+{
+  "name": "cleary",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lendwye",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "swiper": "^8.2.4",
+    "tippy.js": "^6.3.7"
+  }
+}
