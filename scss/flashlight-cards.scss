@@ -1,0 +1,118 @@
+.flashlight-cards {
+	margin-top: 120px;
+	
+	& > .container {
+		display: flex;
+		justify-content: space-between;
+		gap: 50px;
+	}
+
+	&__content {
+		position: relative;
+		padding: 15px 30px 30px 30px;
+	}
+
+	&__item-link {
+		display: flex;
+		flex: 1 1 auto;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	}
+
+	&__title {
+		position: relative;
+		padding: 15px 0 15px 0;
+		font-size: 24px;
+		color: #000;
+
+		&:after {
+			content: '';
+			display: block;
+			height: 2px;
+			width: 70px;
+			position: absolute;
+			bottom: 0;
+			background-color: var(--orangeColor);
+
+		}
+	}
+
+	&__description {
+		margin-top: 35px;
+		color: #000;
+		font-size: 18px;
+	}
+
+	&__button {
+		position: absolute;
+		bottom: 30px;
+		width: 315px;	
+	}
+
+	&__img {
+
+	}
+}
+
+@media (max-width:1400px) {
+
+	.flashlight-cards {
+		display: flex;
+		justify-content: center;
+	}
+
+	.flashlight-cards > .container {
+		display: inline-flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width:768px) {
+
+	.flashlight-cards {
+		display: flex;
+		justify-content: center;
+	}
+
+	.flashlight-cards > .container {
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+	.flashlight-cards__item-link {
+		padding-bottom: 50px;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.flashlight-cards__button {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.flashlight-cards__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.flashlight-cards__title {
+		font-size: 30px;
+		display: flex;
+		text-align: center;
+
+		&:after {
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+	}
+
+	.flashlight-cards__description {
+		text-align: center;
+		font-size: 25px !important;
+	}
+}

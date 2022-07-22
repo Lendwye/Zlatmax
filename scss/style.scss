@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import "font";
+@import "header";
+@import "intro";
+@import "catalog-cards";
+@import "best-seller";
+@import "new";
+@import "sales";
+@import "articles";
+@import "flashlight-cards";
+@import "flashlights";
+@import "footer";
+@import "catalog";
+@import "item";
+
+:root {
+	--orangeColor: #E8AA31;
+}
+
+body {
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 500;	
+	margin: 0;
+}
+
+ul {
+	list-style: none !important;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+input, button, input:focus {
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-slide-next {
+	display: none;
+}
+
+.swiper {
+	width: 100%;
+}
+
+.container {
+	padding: 0 10px;
+	max-width: 1580px;
+	margin: 0 auto;
+}
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 5px;
+	min-height: 50px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	background-color: var(--orangeColor);
+	border-radius: 5px;
+
+	&:hover {
+		box-shadow: 0 0 10px var(--orangeColor);
+	}
+}
